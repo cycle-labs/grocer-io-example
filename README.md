@@ -1,15 +1,11 @@
-# **Create a Free Cycle Cloud Account**
+# **grocer.io Example Cycle Project**
 
-[![Sign up for Cycle](https://cyclelabsprod.blob.core.windows.net/images/sign-up-btn.png)](https://app.cyclelabs.io/signup)
-
-# **cycle-cloud**
-
-Repository to allow collaboration between Cycle Labs Cloud community in support of the community.
+Repository to allow collaboration between Cycle Labs community in support of the community.
 
 ## **Example Feature Import Instructions**
 
-This repository contains example feature files that can be easily imported into Cycle Cloud.  
-These example features demonstrate some of the web test functionality available in Cycle Cloud.  
+This repository contains example feature files that can be easily imported into Cycle.  
+These example features demonstrate some of the web test functionality available in Cycle.  
 
 * ***Grocer IO - Add New Order.feature*** - This feature contains a test scenario that adds a new order to a fictitious web site
 * ***Grocer IO - Add New Order Steps.feature*** - This feature contains utility scenarios used by the main Add New Order Scenario  
@@ -21,15 +17,21 @@ These example features demonstrate some of the web test functionality available 
 3. Save the ZIP file to a convenient location on your device  
 4. Open the downloaded ZIP file and extract the contents 
 
-### Create a New Project and Import the Features  
+### Download the Chrome Driver 
+Download the latest Chrome Driver from https://chromedriver.chromium.org/downloads. Make sure to download a Chrome Driver version that matches
+your version of Chrome.  You can find your version of Chrome by selecting "About Chrome" under the settings section of Chrome.  For example, if your
+Chrome version starts with 105, download a driver that starts with 105. Make sure to extract the Chrome Driver from the zip file you downloaded.
 
-1. Log into Cycle Cloud
-2. Click on the ***New Project*** button  
-3. Provide a name and description for your project and click ***Create***  
-4. Open the project you created by clicking its name in the list of Projects  
-5. Within the project, click the ***Import Feature*** button to import the example features
-6. Select the ***Grocer IO - Add New Order Steps.feature*** file to import it in your file browser and click ***Open***
-7. You will need to repeat the above step for the ***Grocer IO - Add New Order Steps.feature*** utility scenario file  
-8. Execute the example test by clicking ***Queue*** on the ***Grocer IO - Add New Order Steps.feature***  
+### Import this Project into Cycle
 
-Additional information on using Cycle Cloud can be found in the [Cycle Cloud User Manual](https://my.cycleautomation.com/user-manual/cycle-cloud-manual/)  
+1. Open Cycle
+2. Click on the ***Import Project*** button  
+3. Provide the path where the project was downloaded and a project name and click ***Continue***  
+4. In the ***Project Directory*** pane on the left, you can exand the folder to see all project contents.
+5. Double click the ***Grocer IO - Add New Order.feature*** file to open it in the Cycle editor.
+6. Open Project Settings by clicking on the gear icon in the left gutter in the Cycle application.
+7. Click on ***Execution Settings*** and scroll down to the ***Webdrivers & Browswers*** section.
+8. For the ***Chrome Driver*** setting, chose the path to the downloaded ChromeDriver.
+9. Execute the example test by clicking the Run button on the ***Grocer IO - Add New Order Steps.feature*** tab.
+
+Additional information on using Cycle can be found in the [Cycle User Manual](https://my.cycleautomation.com/user-manual)  
